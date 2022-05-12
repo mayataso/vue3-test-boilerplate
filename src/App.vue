@@ -1,5 +1,7 @@
 <template>
-  <Content msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="container">
+    <Content />
+  </div>
 </template>
 
 <script lang="ts">
@@ -16,11 +18,16 @@ export default defineComponent({
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', Ubuntu, Cantarell, 'Helvetica Neue', sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
 }
 </style>
